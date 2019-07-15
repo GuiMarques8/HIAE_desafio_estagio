@@ -20,7 +20,9 @@ https://www.getpostman.com/downloads/
 Executar os comandos
 
 > pip install django
+
 > pip install django-postgres-copy
+
 > pip install psycopg2
 
 ## Executando o projeto
@@ -37,8 +39,11 @@ Esses campos devem ser preenchidos com as informações do banco de dados utiliz
 Entrar na pasta do projeto pelo cmd utilizando o comando 'cd' e executar os seguintes passos:
 
 > python manage.py makemigrations MyApp
+
 > python manage.py migrate
+
 > python manage.py importcsv
+
 > python manage.py runserver
 
 Abir o Postman e inserir o link http gerado pelo comando runserver com a rota 'findphenotypes/'
